@@ -1,4 +1,4 @@
-package com.java.study.ch21_concurrency;//: concurrency/AtomicIntegerTest.java
+package com.java.study.ch21_concurrency.ch21_3_sharingResources;//: concurrency/AtomicIntegerTest.java
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.*;
 import java.util.*;

@@ -1,6 +1,6 @@
 //: concurrency/ExplicitCriticalSection.java
 // Using explicit Lock objects to create critical sections.
-package com.java.study.ch21_concurrency;
+package com.java.study.ch21_concurrency.ch21_3_sharingResources;
 import java.util.concurrent.locks.*;
 
 // Synchronize the entire method:

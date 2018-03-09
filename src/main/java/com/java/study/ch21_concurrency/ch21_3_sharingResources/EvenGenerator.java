@@ -1,4 +1,4 @@
-package com.java.study.ch21_concurrency;//: concurrency/EvenGenerator.java
+package com.java.study.ch21_concurrency.ch21_3_sharingResources;//: concurrency/EvenGenerator.java
 // When threads collide.
 
 public class EvenGenerator extends IntGenerator {

@@ -1,6 +1,7 @@
-package com.java.study.ch21_concurrency;//: concurrency/AtomicEvenGenerator.java
+package com.java.study.ch21_concurrency.ch21_3_sharingResources;//: concurrency/AtomicEvenGenerator.java
 // Atomic classes are occasionally useful in regular code.
 // {RunByHand}
+
 import java.util.concurrent.atomic.*;
 
 public class AtomicEvenGenerator extends IntGenerator {

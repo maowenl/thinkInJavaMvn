@@ -1,6 +1,7 @@
-package com.java.study.ch21_concurrency;//: concurrency/MutexEvenGenerator.java
+package com.java.study.ch21_concurrency.ch21_3_sharingResources;//: concurrency/MutexEvenGenerator.java
 // Preventing thread collisions with mutexes.
 // {RunByHand}
+
 import java.util.concurrent.locks.*;
 
 public class MutexEvenGenerator extends IntGenerator {

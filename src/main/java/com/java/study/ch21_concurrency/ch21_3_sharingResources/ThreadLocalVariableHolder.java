@@ -1,4 +1,4 @@
-package com.java.study.ch21_concurrency;//: concurrency/ThreadLocalVariableHolder.java
+package com.java.study.ch21_concurrency.ch21_3_sharingResources;//: concurrency/ThreadLocalVariableHolder.java
 // Automatically giving each thread its own storage.
 import java.util.concurrent.*;
 import java.util.*;

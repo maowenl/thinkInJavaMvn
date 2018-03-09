@@ -2,7 +2,7 @@
 // Synchronizing blocks instead of entire methods. Also
 // demonstrates protection of a non-thread-safe class
 // with a thread-safe one.
-package com.java.study.ch21_concurrency;
+package com.java.study.ch21_concurrency.ch21_3_sharingResources;
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.*;
 import java.util.*;

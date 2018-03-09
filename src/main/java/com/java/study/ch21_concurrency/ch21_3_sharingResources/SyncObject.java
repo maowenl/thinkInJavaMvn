@@ -1,4 +1,4 @@
-package com.java.study.ch21_concurrency;//: concurrency/SyncObject.java
+package com.java.study.ch21_concurrency.ch21_3_sharingResources;//: concurrency/SyncObject.java
 // Synchronizing on another object.
 import static net.mindview.util.Print.*;
 

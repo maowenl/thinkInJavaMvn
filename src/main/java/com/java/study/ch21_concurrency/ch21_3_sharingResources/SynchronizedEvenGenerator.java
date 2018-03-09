@@ -1,4 +1,4 @@
-package com.java.study.ch21_concurrency;//: concurrency/SynchronizedEvenGenerator.java
+package com.java.study.ch21_concurrency.ch21_3_sharingResources;//: concurrency/SynchronizedEvenGenerator.java
 // Simplifying mutexes with the synchronized keyword.
 // {RunByHand}
 

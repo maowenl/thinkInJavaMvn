@@ -1,4 +1,4 @@
-package com.java.study.ch21_concurrency;//: concurrency/Atomicity.java
+package com.java.study.ch21_concurrency.ch21_3_sharingResources;//: concurrency/Atomicity.java
 // {Exec: javap -c Atomicity}
 
 public class Atomicity {

@@ -1,4 +1,4 @@
-package com.java.study.ch21_concurrency;//: concurrency/EvenChecker.java
+package com.java.study.ch21_concurrency.ch21_3_sharingResources;//: concurrency/EvenChecker.java
 import java.util.concurrent.*;
 
 public class EvenChecker implements Runnable {
@@ -27,6 +27,6 @@ public class EvenChecker implements Runnable {
   }
   // Default value for count:
   public static void test(IntGenerator gp) {
-    test(gp, 10);
+    test(gp, 3);
   }
 } ///:~

@@ -1,4 +1,4 @@
-package com.java.study.ch21_concurrency;//: concurrency/SerialNumberChecker.java
+package com.java.study.ch21_concurrency.ch21_3_sharingResources;//: concurrency/SerialNumberChecker.java
 // Operations that may seem safe are not,
 // when threads are present.
 // {Args: 4}

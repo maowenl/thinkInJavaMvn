@@ -1,4 +1,4 @@
-package com.java.study.ch21_concurrency;//: concurrency/AtomicityTest.java
+package com.java.study.ch21_concurrency.ch21_3_sharingResources;//: concurrency/AtomicityTest.java
 import java.util.concurrent.*;
 
 public class AtomicityTest implements Runnable {

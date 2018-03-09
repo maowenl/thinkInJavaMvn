@@ -1,4 +1,4 @@
-package com.java.study.ch21_concurrency;//: concurrency/IntGenerator.java
+package com.java.study.ch21_concurrency.ch21_3_sharingResources;//: concurrency/IntGenerator.java
 
 public abstract class IntGenerator {
   private volatile boolean canceled = false;
