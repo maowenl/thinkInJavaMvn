@@ -1,0 +1,63 @@
+package com.java.study.ch18_io.ch18_10_NewIO;//: io/ViewBuffers.java
+import java.nio.*;
+import static net.mindview.util.Print.*;
+
+public class ViewBuffers {
+  public static void main(String[] args) {
+    ByteBuffer bb = ByteBuffer.wrap( new byte[]{ 0, 0, 0, 0, 0, 0, 0, 'a' });
+    bb.rewind();
+    printnb("Byte Buffer ");
+    while(bb.hasRemaining()) {
+      byte bt = bb.get();
+      printnb(bb.position() + " -> " + bt + ", ");
+    }
+    print();
+    CharBuffer cb = ((ByteBuffer)bb.rewind()).asCharBuffer();
+    printnb("Char Buffer ");
+    while(cb.hasRemaining()) {
+      char bt = cb.get();
+      printnb(cb.position() + " -> " + bt + ", ");
+    }
+    print();
+    FloatBuffer fb =
+      ((ByteBuffer)bb.rewind()).asFloatBuffer();
+    printnb("Float Buffer ");
+    while(cb.hasRemaining()) {
+      float bt = fb.get();
+      printnb(fb.position() + " -> " + bt + ", ");
+    }
+
+    print();
+    IntBuffer ib =
+      ((ByteBuffer)bb.rewind()).asIntBuffer();
+    printnb("Int Buffer ");
+    while(ib.hasRemaining())
+      printnb(ib.position()+ " -> " + ib.get() + ", ");
+    print();
+    LongBuffer lb =
+      ((ByteBuffer)bb.rewind()).asLongBuffer();
+    printnb("Long Buffer ");
+    while(lb.hasRemaining())
+      printnb(lb.position()+ " -> " + lb.get() + ", ");
+    print();
+    ShortBuffer sb =
+      ((ByteBuffer)bb.rewind()).asShortBuffer();
+    printnb("Short Buffer ");
+    while(sb.hasRemaining())
+      printnb(sb.position()+ " -> " + sb.get() + ", ");
+    print();
+    DoubleBuffer db =
+      ((ByteBuffer)bb.rewind()).asDoubleBuffer();
+    printnb("Double Buffer ");
+    while(db.hasRemaining())
+      printnb(db.position()+ " -> " + db.get() + ", ");
+  }
+} /* Output:
+Byte Buffer 0 -> 0, 1 -> 0, 2 -> 0, 3 -> 0, 4 -> 0, 5 -> 0, 6 -> 0, 7 -> 97,
+Char Buffer 0 ->  , 1 ->  , 2 ->  , 3 -> a,
+Float Buffer 0 -> 0.0, 1 -> 1.36E-43,
+Int Buffer 0 -> 0, 1 -> 97,
+Long Buffer 0 -> 97,
+Short Buffer 0 -> 0, 1 -> 0, 2 -> 0, 3 -> 97,
+Double Buffer 0 -> 4.8E-322,
+*///:~
