@@ -1,6 +1,7 @@
-package com.java.study.ch15_generics;//: generics/Generators.java
+package com.java.study.ch15_generics.ch15_2_SimpleGenerics;//: generics/Generators.java
 // A utility to use with Generators.
-import com.java.study.ch15_generics.coffee.*;
+import com.java.study.ch15_generics.Fibonacci;
+import com.java.study.ch15_generics.ch15_2_SimpleGenerics.coffee.*;
 import java.util.*;
 import net.mindview.util.*;
 

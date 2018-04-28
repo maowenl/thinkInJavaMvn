@@ -1,5 +1,6 @@
 package com.java.study.ch15_generics;//: generics/Apply.java
 // {main: ApplyTest}
+
 import java.lang.reflect.*;
 import java.util.*;
 import static net.mindview.util.Print.*;

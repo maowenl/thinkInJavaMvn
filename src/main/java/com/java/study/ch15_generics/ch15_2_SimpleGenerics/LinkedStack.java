@@ -1,4 +1,4 @@
-package com.java.study.ch15_generics;//: generics/LinkedStack.java
+package com.java.study.ch15_generics.ch15_2_SimpleGenerics;//: generics/LinkedStack.java
 // A stack implemented with an internal linked structure.
 
 public class LinkedStack<T> {

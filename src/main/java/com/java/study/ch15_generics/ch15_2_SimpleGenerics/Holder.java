@@ -1,4 +1,9 @@
-package com.java.study.ch15_generics;//: generics/Holder.java
+package com.java.study.ch15_generics.ch15_2_SimpleGenerics;//: generics/Holder.java
+
+class Fruit {}
+class Apple extends Fruit {}
+class Jonathan extends Apple {}
+class Orange extends Fruit {}
 
 public class Holder<T> {
   private T value;

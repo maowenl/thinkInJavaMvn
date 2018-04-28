@@ -1,4 +1,4 @@
-package com.java.study.ch15_generics;//: generics/RandomList.java
+package com.java.study.ch15_generics.ch15_2_SimpleGenerics;//: generics/RandomList.java
 import java.util.*;
 
 public class RandomList<T> {

@@ -1,6 +1,8 @@
 package com.java.study.ch15_generics;//: generics/BankTeller.java
 // A very simple bank teller simulation.
 import java.util.*;
+
+import com.java.study.ch15_generics.ch15_2_SimpleGenerics.Generators;
 import net.mindview.util.*;
 
 class Customer {

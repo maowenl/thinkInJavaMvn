@@ -1,6 +1,4 @@
 package com.java.study.ch13_strings;//: strings/ArrayListDisplay.java
-import com.java.study.ch15_generics.coffee.*;
-import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class ArrayListDisplay {

@@ -1,6 +1,8 @@
 package com.java.study.ch15_generics;//: generics/Store.java
 // Building up a complex model using generic containers.
 import java.util.*;
+
+import com.java.study.ch15_generics.ch15_2_SimpleGenerics.Generators;
 import net.mindview.util.*;
 
 class Product {

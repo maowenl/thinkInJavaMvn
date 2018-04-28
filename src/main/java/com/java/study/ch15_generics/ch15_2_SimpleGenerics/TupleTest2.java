@@ -1,4 +1,4 @@
-package com.java.study.ch15_generics;//: generics/TupleTest2.java
+package com.java.study.ch15_generics.ch15_2_SimpleGenerics;//: generics/TupleTest2.java
 import net.mindview.util.*;
 import static net.mindview.util.Tuple.*;
 

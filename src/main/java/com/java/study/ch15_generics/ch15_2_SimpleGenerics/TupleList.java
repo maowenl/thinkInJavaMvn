@@ -1,4 +1,4 @@
-package com.java.study.ch15_generics;//: generics/TupleList.java
+package com.java.study.ch15_generics.ch15_2_SimpleGenerics;//: generics/TupleList.java
 // Combining generic types to make complex generic types.
 import java.util.*;
 import net.mindview.util.*;

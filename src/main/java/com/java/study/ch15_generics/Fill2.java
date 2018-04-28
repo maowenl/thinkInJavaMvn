@@ -1,7 +1,7 @@
 package com.java.study.ch15_generics;//: generics/Fill2.java
 // Using adapters to simulate latent typing.
 // {main: Fill2Test}
-import com.java.study.ch15_generics.coffee.*;
+import com.java.study.ch15_generics.ch15_2_SimpleGenerics.coffee.*;
 import java.util.*;
 import net.mindview.util.*;
 import static net.mindview.util.Print.*;

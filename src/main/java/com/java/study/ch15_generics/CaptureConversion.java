@@ -1,5 +1,7 @@
 package com.java.study.ch15_generics;//: generics/CaptureConversion.java
 
+import com.java.study.ch15_generics.ch15_2_SimpleGenerics.Holder;
+
 public class CaptureConversion {
   static <T> void f1(Holder<T> holder) {
     T t = holder.get();

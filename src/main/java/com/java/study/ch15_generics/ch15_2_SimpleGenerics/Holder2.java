@@ -1,10 +1,11 @@
-package com.java.study.ch15_generics;//: generics/Holder2.java
+package com.java.study.ch15_generics.ch15_2_SimpleGenerics;//: generics/Holder2.java
 
 public class Holder2 {
   private Object a;
   public Holder2(Object a) { this.a = a; }
   public void set(Object a) { this.a = a; }
   public Object get() { return a; }
+
   public static void main(String[] args) {
     Holder2 h2 = new Holder2(new Automobile());
     Automobile a = (Automobile)h2.get();

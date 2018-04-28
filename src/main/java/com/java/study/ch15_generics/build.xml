@@ -680,7 +680,7 @@
 
   <target name="CoffeeGenerator">
     <java
-     classname="com.java.study.ch15_generics.coffee.CoffeeGenerator"
+     classname="com.java.study.ch15_generics.ch15_2_SimpleGenerics.coffee.CoffeeGenerator"
      classpath="${java.class.path};${basedir};${basedir}/.."
      dir="../generics/coffee/"
      failonerror="true"

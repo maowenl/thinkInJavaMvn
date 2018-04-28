@@ -1,4 +1,4 @@
-package com.java.study.ch15_generics;//: generics/Holder1.java
+package com.java.study.ch15_generics.ch15_2_SimpleGenerics;//: generics/Holder1.java
 
 class Automobile {}
 

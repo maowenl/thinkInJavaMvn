@@ -1,4 +1,4 @@
-package com.java.study.ch15_generics;//: generics/TupleTest.java
+package com.java.study.ch15_generics.ch15_2_SimpleGenerics;//: generics/TupleTest.java
 import net.mindview.util.*;
 
 class Amphibian {}

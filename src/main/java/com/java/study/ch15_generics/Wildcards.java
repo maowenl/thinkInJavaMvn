@@ -1,6 +1,8 @@
 package com.java.study.ch15_generics;//: generics/Wildcards.java
 // Exploring the meaning of wildcards.
 
+import com.java.study.ch15_generics.ch15_2_SimpleGenerics.Holder;
+
 public class Wildcards {
    // Raw argument:
   static void rawArgs(Holder holder, Object arg) {
